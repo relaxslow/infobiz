@@ -1,0 +1,22 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="128px" height="128px" viewBox="0 0 128 128">
+<defs>
+<g id="Layer0_0_FILL">
+<path fill="#DBE0DC" stroke="none" d="
+M 128 0
+L 0 0 0 128 128 128 128 0 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 0.8021392822265625, 2.15,13.75) ">
+<clipPath id="Mask_Mask_1">
+<rect x="11.9" y="-2" width="97" height="121.8" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="34" y="48" baseline-shift="0%" font-family="Tahoma" font-size="48" fill="#FFFFFF" xml:space="preserve">no </tspan><tspan x="30.55" y="107.9" baseline-shift="0%" font-family="Tahoma" font-size="48" fill="#FFFFFF" xml:space="preserve">pic</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,295 @@
+.Head {
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 1px 5px #a7a7a7;
+}
+
+.NavBar {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavMenuBox {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+}
+
+.NavLogo {
+    width: 30%;
+    max-width: 200px;
+    min-width: 150px;
+    height: 100%;
+    margin: 0 auto 0 10px;
+    background-image: url("/assets/img/inforbizLogo.svg");
+    background-size: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.NavMenuTxt {
+    font-size: 1.4em;
+    color: #5d5d5d;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.PullDownMenuBox {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+}
+
+.NavMenuIcon {
+    background-image: url("/assets/img/menuIcon.svg");
+    background-size: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 30px;
+    padding-top: 30px;
+    margin: 5px 20px 0 auto;
+    visibility: hidden;
+}
+
+.NavMenuIcon:hover {
+    width: 28px;
+    padding-top: 28px;
+}
+
+.NavMenuIconClose {
+    position: relative;
+    background-image: url("/assets/img/menuIconClose.svg");
+    background-size: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 30px;
+    padding-top: 30px;
+    margin: 5px 20px 0 auto;
+}
+
+.NavVerticalMenuPanel {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 600%;
+    top: 0;
+    right: 37px;
+    box-shadow: 3px 3px #8b8989;
+}
+
+.NavVerticalMenuItem {
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 100%;
+    border-style: unset;
+    padding: 10px;
+}
+
+.NavVerticalSubmenuItem {
+    width: 100%;
+    border-style: unset;
+    padding: 10px;
+}
+
+.NavMenuItemBox {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.NavMenuItemResArea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.NavMenuItemBoxMouseover {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+}
+
+.DropDownBoxConnector {
+    position: absolute;
+    visibility: hidden;
+    overflow: hidden;
+    top: 93px;
+    margin-left: -11px;
+    /* min-width: 100%; */
+}
+
+.dropDownItemBoxResArea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    cursor: pointer;
+    /* padding: 10px; */
+}
+
+.DropDownBox {
+    display: flex;
+    margin: 0 10px 10px 10px;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 3px 1px #909090;
+    position: relative;
+    /* min-width: 100%; */
+}
+
+.dropDownBoxResArea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.DropDownItemBox {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 0;
+}
+
+.DropDownItemBoxMouseover {
+    background-color: #d9cccc;
+    width: 100%;
+    height: 100%;
+}
+
+.DropDownItemSelector {
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px 0 30px;
+}
+
+.DropDownItemSelectorMouseover {
+    background-color: #c8c5c5;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px 0 30px;
+}
+
+.DropDownMenuText {
+    color: #4d4b4b;
+    font-size: 1.15em;
+    font-weight: 100;
+    margin: 0px 40px 0px 0;
+    white-space: nowrap;
+    min-width: 60px;
+    text-align: left;
+}
+
+.StretchableNavBar {
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 1px 5px #a7a7a7;
+}
+
+.Strip {
+    background-color: #4d4b4b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.Striphead {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.StripHeadText {
+    color: antiquewhite;
+    font-size: 1.2em;
+    padding: 0 30px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.LanguageButton {
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+.LanguageButton:hover {
+    background-color: #848484;
+    cursor: pointer;
+}
+
+.LanguageIcon {
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/assets/img/Flag_of_the_Peoples_Republic_of_China.svg);
+    pointer-events: none;
+}
+
+.LanguageText {
+    color: aliceblue;
+    padding: 0 0 0 10px;
+    margin: 0;
+    font-size: 1.2em;
+    pointer-events: none;
+}
+
+.ResArea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+@media only screen and (max-width:620px) {
+    .MenuBox {
+        position: absolute;
+        visibility: hidden;
+    }
+    .NavMenuIconNormal {
+        visibility: visible;
+    }
+    .NavBar {
+        height: 50px
+    }
+}

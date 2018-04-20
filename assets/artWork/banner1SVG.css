@@ -1,0 +1,22 @@
+.bannerBoxTitle {
+    width: 294px;
+    font-size: 35px;
+    letter-spacing: 9px;
+    color: white;
+    position: absolute;
+    top: 58px;
+    left: 633px;
+    text-align: center;
+    text-shadow: 0px 1px black;
+}
+
+.bannerBoxSubtitle {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 103px;
+    left: 645px;
+    text-align: center;
+    width: 262px;
+    text-shadow: 0px 1px black;
+}

@@ -1,0 +1,94 @@
+
+.ServiceBox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: top;
+}
+.businessCard {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    width: 25%;
+    align-items: center;
+    border-style: solid;
+    border-color: #c8c8c8;
+    cursor: pointer;
+    opacity: 0;
+}
+
+
+
+.BusinessDiagram {
+    background-size: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    padding-top: 100%;
+    pointer-events: none;
+}
+
+.BusinessDiagramText {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* max-width: 400px; */
+    margin: 0 0 0 30px;
+}
+
+.BusinessTitle {
+    margin: 5px 20px 10px 20px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.BusinessDescription {
+    margin: 0 0 30px;
+}
+
+.BusinessDetailButtonBox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.BusinessShowDetailButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 50px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .ServiceBox {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .businessCard{
+        width: 60%;
+    }
+    .BusinessDiagram {
+       width: 100%;
+       padding-top: 100%;
+    }
+    .BusinessDiagramText{
+        margin: 0 10px;
+        width: 100%;
+    }
+    .BusinessDetailButtonBox{
+        justify-content:center;
+    }
+    .BusinessTitle{
+        text-align: center;
+    }
+  
+}

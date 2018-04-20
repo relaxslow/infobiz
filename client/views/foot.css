@@ -1,0 +1,12 @@
+.Foot{
+	width: 100%;
+	background-color: #393939;
+	display: flex;
+	align-items: center;
+	height: 200px;
+	/* margin: 100px 0 0; */
+}
+.TradeMark{
+	margin: auto;
+	color: rgb(204, 180, 180);
+}

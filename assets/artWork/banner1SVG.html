@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/artWork/banner1SVG.css">
+    <style>
+        svg {
+            background-color: #FFFFFF;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="./SnapSVGAnimator/js/vendor/snap.svg/snap.svg-min.js"></script>
+    <script src="./SnapSVGAnimator/js/SnapSVGAnimator.min.js"></script>
+
+    <script type="text/javascript"> 
+        var jsonfile = "banner1SVG.json",
+            fps = 24,
+            width = 960,
+            height = 300,
+            AJAX_req;
+
+        AJAX_JSON_Req(jsonfile);
+
+        function handle_AJAX_Complete() {
+            if (AJAX_req.readyState == 4 && AJAX_req.status == 200) {
+                json = JSON.parse(AJAX_req.responseText);
+                comp = new SVGAnim(
+                    json,
+                    width,
+                    height,
+                    fps
+                );
+
+            }
+        }
+
+        function AJAX_JSON_Req(url) {
+            AJAX_req = new XMLHttpRequest();
+            AJAX_req.open("GET", url, true);
+            AJAX_req.setRequestHeader("Content-type", "application/json");
+
+            AJAX_req.onreadystatechange = handle_AJAX_Complete;
+            AJAX_req.send();
+        }
+
+    </script>
+    <span class="bannerBoxTitle" data-translate="content">banner1-title</span>
+    <span class="bannerBoxSubtitle" data-translate="content">banner1-subtitle</span>
+</body>
+
+</html>

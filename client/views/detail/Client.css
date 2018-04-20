@@ -1,0 +1,61 @@
+
+.ClientBox {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+}
+.Microsoft{
+    width: 300px;
+    height: 100px;
+    /* padding-top: 80px; */
+    background-image: url("/assets/img/companyLogos/Microsoft_logo.svg");
+}
+.AWS{width: 100px;height: 100px;/* padding-top: 80px; */background-image: url(/assets/img/companyLogos/Amazon_Web_Services_Logo.svg);}
+.HP{
+  width: 80px;
+  height: 100px;
+  /* padding-top: 80px; */
+  background-image: url(/assets/img/companyLogos/HP_New_Logo_2D.svg);
+}
+.ClientLogo {
+    background-size: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.LeftArrowBox {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.RightArrowBox {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    transform: scaleX(-1);
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.Arrow {
+    width: 20px;
+    height: 50px;
+}
+
+
+
+@media only screen and (max-width:620px) {
+    .ClientBox {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+}

@@ -1,0 +1,86 @@
+.detailBoxBox {
+    background-color: #e5e3e3;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+.DetailPageDetailBox{
+    background-color: #e5e3e3;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+.DetailBoxHead {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #c3c3c3;
+    border-width: 1px 0 1px 0;
+    width: 100%;
+}
+
+.DetailBoxHeadText {
+    color: #6e6e6e;
+    /* font-family: sans-serif; */
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 100%;
+    margin: 0;
+    padding: 0px 30px;
+    white-space: nowrap;
+}
+
+.DetailBoxHeadLinksBox {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.DetailBoxHeadLinksText {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0 5px;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.DetailBoxHeadLinksConnector {
+    font-size: 10px;
+}
+
+.DetailBoxContent {
+   background-color: #ffffff;
+   display: flex;
+   justify-content: center;
+   /* padding: 20px 50px 50px 50px; */
+   width: 100%;
+   /* border-style: solid; */
+   /* border-color: #c3c3c3; */
+   /* border-width: 0 0 1px 0; */
+}
+.MenuContentPlug{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 100%;
+    justify-content: center;
+}
+@media only screen and (max-width:620px) {
+    .DetailBoxContent{
+        padding: 0;
+    }
+    .DetailPageDetailBox{
+        width: 80vw;   
+    }
+    .DetailBoxHeadLinksBox{
+        position: absolute;
+        visibility: hidden;
+    }
+    .DetailBoxHeadText{
+        white-space: pre-wrap;
+    }
+}

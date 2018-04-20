@@ -1,0 +1,47 @@
+
+.FixedBanner {
+    width: 100%;
+    height: 100px;
+    background-color: #598cb9;
+    display: flex;
+    align-items: center;
+}
+
+.FixedBannerImgBox {
+    /* width: 100vw; */
+    /* height: 50px; */
+    height: auto;
+    background-color: #78a4c6;
+}
+
+.FixedBannerImg {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.FixedBannerText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+}
+
+.FixedBannerTitle {
+    color: white;
+    font-size: 1.8em;
+    letter-spacing: .5em;
+    top: 20%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.FixedBannerSubtitle {
+    color: white;
+    font-size: 1.5em;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}

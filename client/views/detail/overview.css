@@ -1,0 +1,25 @@
+.overviewBox{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.OverviewContent {
+    min-width: 300px;
+    max-width: 700px;
+}
+
+.OverviewText {
+    padding: 0 30px;
+    
+}
+.OverviewImgBox{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 30px; */
+    margin: 20px;
+}
+.OverviewImg {
+    width: 100%;
+    height: auto;
+    min-width: 300px;
+}

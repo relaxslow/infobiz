@@ -1,0 +1,138 @@
+.SideMenuBox {
+    background-color: #e5e3e3;
+    width: 30vw;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.SmallBanner {
+    background-color: #826d7b;
+    width: 200px;
+    max-width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.SmallBannerText {
+    color: wheat;
+    font-size: 1.5em;
+}
+
+.VerticalMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.VerticalMenuItem {
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    position: relative;
+    padding: 20px;
+    width: 200px;
+}
+
+.VerticalMenuItemMouseover {
+ background-color: rgb(153, 153, 153);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    position: relative;
+    padding: 20px;
+    width: 200px;
+}
+
+.VerticalMenuItemText {
+    color: #f7f7f7;
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+.VerticalMenuItemTextMouseover {
+      color: #ffffff;
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.VerticalMenuItemResArea {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.SubMenuConnector {
+    overflow: hidden;
+    height: 0;
+}
+.SubMenuConnectorInitOpen {
+    overflow: hidden;
+}
+.SubMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.SubMenuItem {
+    background-color: #9a9a9a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 0 20px;
+    height: 30px;
+    position: relative;
+}
+
+.SubMenuItemMouseOver {
+    background-color: rgb(139, 139, 139);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 0 20px;
+    height: 30px;
+    position: relative;
+}
+
+.SubMenuItemText {
+    margin: 0;
+    font-size: 1.15em;
+    color: #e2e2e2;
+}
+
+.SubMenuItemTextMouseOver{
+    margin: 0;
+    font-size: 1.15em;
+    color: white;
+}
+
+.SubMenuItemResArea {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width:620px) {
+    .SideMenuBox {
+        position: absolute;
+        visibility: hidden;
+    }
+}

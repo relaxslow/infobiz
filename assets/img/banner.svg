@@ -1,0 +1,278 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="311px" height="110px" viewBox="0 0 311 110">
+<defs>
+<linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="155.1" y1="-1.4250000000000043" x2="155.1" y2="112.42500000000001" spreadMethod="pad">
+<stop  offset="0%" stop-color="#E6E6E6" stop-opacity="0"/>
+
+<stop  offset="40%" stop-color="#F1F1F1" stop-opacity="0.34901960784313724"/>
+
+<stop  offset="100%" stop-color="#FFFFFF" stop-opacity="0.5490196078431373"/>
+</linearGradient>
+
+<linearGradient id="Gradient_2" gradientUnits="userSpaceOnUse" x1="13.1375" y1="36.3125" x2="46.662499999999994" y2="-12.8125" spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+<stop  offset="100%" stop-color="#3C4984"/>
+</linearGradient>
+
+<linearGradient id="Gradient_3" gradientUnits="userSpaceOnUse" x1="29.3625" y1="30.7375" x2="-5.462500000000002" y2="-9.837500000000002" spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+<stop  offset="100%" stop-color="#00002E" stop-opacity="0.6196078431372549"/>
+</linearGradient>
+
+<linearGradient id="Gradient_4" gradientUnits="userSpaceOnUse" x1="-14.387500000000006" y1="22.887500000000003" x2="71.28750000000001" y2="2.612499999999999" spreadMethod="pad">
+<stop  offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+<stop  offset="100%" stop-color="#3C4984"/>
+</linearGradient>
+
+<g id="Layer3_0_FILL">
+<path fill="#65C7F0" stroke="none" d="
+M 311.1 -0.4
+L 0.1 -0.4 0.1 110.05 311.1 110.05 311.1 -0.4 Z"/>
+</g>
+
+<g id="Layer2_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 310.15 109.55
+L 310.15 0 0 0 0 109.55 310.15 109.55 Z"/>
+</g>
+
+<g id="Mask_1_MASK_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 310.8 -0.1
+L 0.65 -0.1 0.65 109.45 310.8 109.45 310.8 -0.1 Z"/>
+</g>
+
+<g id="Symbol_1_0_Layer1_0_FILL">
+<path fill="#9EDBFA" stroke="none" d="
+M 41.6 41.6
+L 41.6 0 0 0 0 41.6 41.6 41.6 Z"/>
+</g>
+
+<g id="Symbol_1_0_Layer0_0_FILL">
+<path fill="url(#Gradient_2)" stroke="none" d="
+M 41.6 41.6
+L 41.6 0 0 0 0 41.6 41.6 41.6 Z"/>
+</g>
+
+<g id="Symbol_2_0_Layer1_0_FILL">
+<path fill="#91E2FF" stroke="none" d="
+M 41.6 41.6
+L 41.6 0 0 0 0 41.6 41.6 41.6 Z"/>
+</g>
+
+<g id="Symbol_2_0_Layer0_0_FILL">
+<path fill="url(#Gradient_3)" stroke="none" d="
+M 41.6 41.6
+L 41.6 0 0 0 0 41.6 41.6 41.6 Z"/>
+</g>
+
+<g id="Symbol_4_0_Layer1_0_FILL">
+<path fill="#9EDBFA" stroke="none" d="
+M 41.6 41.6
+L 41.6 0 0 0 0 41.6 41.6 41.6 Z"/>
+</g>
+
+<g id="Symbol_4_0_Layer0_0_FILL">
+<path fill="url(#Gradient_4)" stroke="none" d="
+M 41.6 41.6
+L 41.6 0 0 0 0 41.6 41.6 41.6 Z"/>
+</g>
+
+<g id="Symbol_3_0_Layer0_0_FILL">
+<path fill="url(#Gradient_3)" stroke="none" d="
+M 41.6 41.6
+L 41.6 0 0 0 0 41.6 41.6 41.6 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer3_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer2_0_FILL"/>
+</g>
+
+<mask id="Mask_Mask_1">
+<g transform="matrix( 1, 0, 0, 1, -0.65,0.1) ">
+<use xlink:href="#Mask_1_MASK_0_FILL"/>
+</g>
+</mask>
+
+<g mask="url(#Mask_Mask_1)">
+<g transform="matrix( 1.2411041259765625, -0.3369598388671875, 0.3369598388671875, 1.2411041259765625, 12.3,-12) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2411041259765625, -0.3369598388671875, 0.3369598388671875, 1.2411041259765625, 63.8,-25.95) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2411041259765625, -0.3369598388671875, 0.3369598388671875, 1.2411041259765625, 115.4,-40.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_4_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_4_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2411041259765625, -0.3369598388671875, 0.3369598388671875, 1.2411041259765625, 26.3,39.6) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2411041259765625, -0.3369598388671875, 0.3369598388671875, 1.2411041259765625, 77.8,25.5) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2411041259765625, -0.3369598388671875, 0.3369598388671875, 1.2411041259765625, 129.45,11.5) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_3_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2411041259765625, -0.3369598388671875, 0.3369598388671875, 1.2411041259765625, 40.3,91.15) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2411041259765625, -0.3369598388671875, 0.3369598388671875, 1.2411041259765625, 91.85,77.1) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2410736083984375, -0.3369598388671875, 0.3369598388671875, 1.2410736083984375, -90.85,15.95) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2410736083984375, -0.3369598388671875, 0.3369598388671875, 1.2410736083984375, -39.35,2) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2410736083984375, -0.3369598388671875, 0.3369598388671875, 1.2410736083984375, -76.85,67.6) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2410736083984375, -0.3369598388671875, 0.3369598388671875, 1.2410736083984375, -25.35,53.55) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2410736083984375, -0.3369598388671875, 0.3369598388671875, 1.2410736083984375, -62.85,119.2) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2410736083984375, -0.3369598388671875, 0.3369598388671875, 1.2410736083984375, -11.35,105.1) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2410736083984375, -0.3369598388671875, 0.3369598388671875, 1.2410736083984375, -104.9,-35.55) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_2_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2410736083984375, -0.3369598388671875, 0.3369598388671875, 1.2410736083984375, -53.4,-49.6) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_1_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2410736083984375, -0.3369598388671875, 0.3369598388671875, 1.2410736083984375, 143.45,63.1) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_4_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_4_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.2410736083984375, -0.3369598388671875, 0.3369598388671875, 1.2410736083984375, 157.5,114.8) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Symbol_3_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>
