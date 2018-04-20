@@ -2,4 +2,4 @@ git remote -v
 pause
 git add .
 git commit -am"U"
-git push inforbiz master
+git push origin master
