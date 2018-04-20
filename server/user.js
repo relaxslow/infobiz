@@ -77,8 +77,8 @@ exports.createNew = function (userData, fun) {
     var newUser = new db.User({
         name: "guest" + getUserNumber(),
         language: "USA",
-        currentView: view.map[userData.currentUrl],
-        currentMenu: "none",
+        currentView: userData.currentView,
+        currentMenu: userData.currentMenu,
         currentUrl: userData.currentUrl,
         history: history
 
