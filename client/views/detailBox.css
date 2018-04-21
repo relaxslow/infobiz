@@ -56,11 +56,7 @@
    background-color: #ffffff;
    display: flex;
    justify-content: center;
-   /* padding: 20px 50px 50px 50px; */
    width: 100%;
-   /* border-style: solid; */
-   /* border-color: #c3c3c3; */
-   /* border-width: 0 0 1px 0; */
 }
 .MenuContentPlug{
     display: flex;

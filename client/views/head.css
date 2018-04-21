@@ -282,11 +282,11 @@
 }
 
 @media only screen and (max-width:620px) {
-    .MenuBox {
+    .NavMenuBox {
         position: absolute;
         visibility: hidden;
     }
-    .NavMenuIconNormal {
+    .NavMenuIcon {
         visibility: visible;
     }
     .NavBar {
