@@ -5,7 +5,8 @@
     padding: 0;
 }
 button,span,p,h2{
-    font-family: msyh,serif
+    font-family: msyh,serif;
+    color:rgb(71, 71, 71);
 }
 
 .MainBody{

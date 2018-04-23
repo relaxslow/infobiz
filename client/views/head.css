@@ -61,15 +61,15 @@
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: top;
-    width: 30px;
-    padding-top: 30px;
+    width: 20px;
+    padding-top: 20px;
     margin: 5px 20px 0 auto;
     visibility: hidden;
 }
 
 .NavMenuIcon:hover {
-    width: 28px;
-    padding-top: 28px;
+    width: 22px;
+    padding-top: 22px;
 }
 
 .NavMenuIconClose {
@@ -84,28 +84,33 @@
     margin: 5px 20px 0 auto;
 }
 
-.NavVerticalMenuPanel {
+.NavMenuIconPullDownMenu {
     position: absolute;
+    width: 50%;
+    top: 50px;
+    right: 20px;
+    box-shadow: 2px 2px 3px #8b8989;
+    height: 0;
+    overflow: hidden;
+}
+
+.container {
     display: flex;
     flex-direction: column;
-    width: 600%;
-    top: 0;
-    right: 37px;
-    box-shadow: 3px 3px #8b8989;
 }
 
-.NavVerticalMenuItem {
-    font-size: 1.2em;
-    font-weight: bold;
-    width: 100%;
-    border-style: unset;
-    padding: 10px;
+.IconMenuItem {
+    background-color: white;
+    color: black;
+    letter-spacing: 0.2em;
+    border-style: none;
+    padding: 15px 0;
 }
 
-.NavVerticalSubmenuItem {
-    width: 100%;
-    border-style: unset;
-    padding: 10px;
+.IconMenuItem:hover,
+.IconMenuItem:focus {
+    background-color: aqua;
+    outline: none;
 }
 
 .NavMenuItemBox {
